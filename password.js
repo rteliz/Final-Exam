@@ -1,6 +1,9 @@
 class Password{
   //The first part of the class.
-  constructor(){}
+  constructor(){
+    this.publickey=publickey
+    this.privatekey=privatkey
+  }
 
 
   //Instance functions below this comment.
