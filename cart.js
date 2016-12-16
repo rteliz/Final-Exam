@@ -14,7 +14,7 @@ class Cart{
   totalCart(){
     let total=0;
     for(let i=0, i , i++){is.itemList
-      total += th
+      total += this.itemList[i].price*this.itemQuantity[i]
     }
     return total;
   }
